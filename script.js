@@ -70,6 +70,7 @@ names.map(name => {
  const getFirstChars = name.charAt()
 console.log(getFirstChars)
 })
+console.log(names.sort())
 }
 
 sortByName()
