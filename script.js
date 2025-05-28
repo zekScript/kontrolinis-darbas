@@ -66,12 +66,14 @@ const names = [
 
 
 function sortByName(){
-const result = names.sort()
-
-console.log(result)
+names.map(name => {
+ const getFirstChars = name.charAt()
+console.log(getFirstChars)
+})
 }
 
 sortByName()
+
 
 
 
